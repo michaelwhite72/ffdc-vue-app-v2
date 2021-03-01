@@ -17,7 +17,7 @@
           ></label>
           <input type="checkbox" id="drop" />
           <ul class="menu ml-auto mt-1">
-            <li class=""><router-link to="/home">Home</router-link></li>
+            <li class=""><router-link to="/">Home</router-link></li>
             <li class="active"><router-link to="/About">About</router-link></li>
             <li class=""><a href="services.html">Services</a></li>
             <li class=""><a href="blog.html">Blog</a></li>
