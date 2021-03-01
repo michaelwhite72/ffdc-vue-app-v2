@@ -1,5 +1,35 @@
 <template>
-  <div class="Home">
+  <div id="app">
+    <!-- header -->
+    <header>
+      <div class="container">
+        <!-- nav -->
+        <nav class="py-3 d-lg-flex">
+          <div id="logo">
+            <h1>
+              <a href="index.html"
+                ><span class="fa fa-university"></span> Faster Pay
+              </a>
+            </h1>
+          </div>
+          <label for="drop" class="toggle"
+            ><span class="fa fa-bars"></span
+          ></label>
+          <input type="checkbox" id="drop" />
+          <ul class="menu ml-auto mt-1">
+            <li class="active"><a href="index.html">Home</a></li>
+            <li class=""><a href="about.html">About</a></li>
+            <li class=""><a href="services.html">Services</a></li>
+            <li class=""><a href="blog.html">Blog</a></li>
+            <li class=""><a href="contact.html">Contact</a></li>
+            <li class="last-grid"><a href="#">Call Now</a></li>
+          </ul>
+        </nav>
+        <!-- //nav -->
+      </div>
+    </header>
+    <!-- //header -->
+
     <!-- banner -->
     <div class="banner" id="home">
       <div class="layer">
@@ -382,28 +412,249 @@
       </div>
     </section>
     <!-- //stats section -->
+
+    <!-- footer-top -->
+    <section class="footer-top pt-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-sm-6 mb-4">
+            <h3 class="my-sm-3 mb-2">
+              <span class="fa mr-2 fa-mobile"></span> Mobile Apps
+            </h3>
+            <p class="mb-sm-4">
+              Vestibulum ante ipsum primis in faucibus orci luctus et ultrices.
+            </p>
+          </div>
+          <div class="col-lg-3 col-sm-6 mb-4">
+            <h3 class="my-sm-3 mb-2">
+              <span class="fa mr-2 fa-shield"></span> Security Tips
+            </h3>
+            <p class="mb-sm-4">
+              Vestibulum ante ipsum primis in faucibus orci luctus et ultrices.
+            </p>
+          </div>
+          <div class="col-lg-3 col-sm-6 mb-4">
+            <h3 class="my-sm-3 mb-2">
+              <span class="fa mr-2 fa-globe"></span> Various Branches
+            </h3>
+            <p class="mb-sm-4">
+              Vestibulum ante ipsum primis in faucibus orci luctus et ultrices.
+            </p>
+          </div>
+          <div class="col-lg-3 col-sm-6 mb-4">
+            <h3 class="my-sm-3 mb-2">
+              <span class="fa mr-2 fa-phone"></span> 24/7 Support
+            </h3>
+            <p class="mb-4">
+              Vestibulum ante ipsum primis in faucibus orci luctus et ultrices.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- //footer-top -->
+
+    <!-- footer -->
+    <footer class="footer py-5">
+      <div class="container pt-lg-4">
+        <div class="row">
+          <div class="col-lg-3 col-sm-6 footer-top">
+            <h4 class="mb-4 w3f_title">Contact Info</h4>
+            <ul class="list-w3">
+              <li>
+                <span class="fa mr-1 fa-map-marker"></span>2130 Fulton Street,
+                San Diego, CA 94117-1080 USA
+              </li>
+              <li class="my-2">
+                <span class="fa mr-1 fa-phone"></span>1-600-1234-567
+              </li>
+              <li class="my-2">
+                <span class="fa mr-1 fa-phone"></span>1-600-1234-567
+              </li>
+              <li class="">
+                <span class="fa mr-1 fa-envelope"></span
+                ><a href="mailto:info@example.com">info@example.com</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-sm-6 footv3-left mt-sm-0 mt-4">
+            <h4 class="mb-4 w3f_title">Share Holders</h4>
+            <ul class="list-w3">
+              <li class="my-2">
+                <a href="#">
+                  Shareholders Information
+                </a>
+              </li>
+              <li class="mb-2">
+                <a href="#">
+                  Stock Information
+                </a>
+              </li>
+              <li class="my-2">
+                <a href="#">
+                  Financial Results
+                </a>
+              </li>
+              <li class="my-2">
+                <a href="#">
+                  Investors faq's
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  Regulatory Section
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-2 col-sm-4 mt-lg-0 mt-sm-5 mt-4">
+            <h4 class="mb-4 w3f_title">Media Center</h4>
+            <ul class="list-w3">
+              <li class="my-2">
+                <a href="#">
+                  Press Release
+                </a>
+              </li>
+              <li class="mb-2">
+                <a href="#">
+                  Vision & Values
+                </a>
+              </li>
+              <li class="my-2">
+                <a href="#">
+                  Winning Awards
+                </a>
+              </li>
+              <li class="my-2">
+                <a href="#">
+                  Banking
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-lg-2 col-sm-4 mt-lg-0 mt-sm-5 mt-4">
+            <h4 class="mb-4 w3f_title">Resources</h4>
+            <ul class="list-w3">
+              <li class="my-2">
+                <a href="#">
+                  24/7 Help Line
+                </a>
+              </li>
+              <li class="mb-2">
+                <a href="#">
+                  Nearest Branch
+                </a>
+              </li>
+              <li class="my-2">
+                <a href="#">
+                  Guidance
+                </a>
+              </li>
+              <li class="my-2">
+                <a href="#">
+                  Download
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  Mobile App
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-lg-2 col-sm-4 mt-lg-0 mt-sm-5 mt-4">
+            <h4 class="mb-4 w3f_title">Other Links</h4>
+            <ul class="list-w3">
+              <li class="my-2">
+                <a href="#">
+                  Careers
+                </a>
+              </li>
+              <li class="mb-2">
+                <a href="#">
+                  All faq's
+                </a>
+              </li>
+              <li class="my-2">
+                <a href="#">
+                  Bank Group
+                </a>
+              </li>
+              <li class="my-2">
+                <a href="#">
+                  Credit Cards
+                </a>
+              </li>
+              <li class="my-2">
+                <a href="#">
+                  Loans
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- //footer bottom -->
+    </footer>
+    <!-- //footer -->
+
+    <!-- middle -->
+    <section class="middle py-4">
+      <div class="container">
+        <p>
+          <strong class="mr-2">Our Offerings & Calculators:</strong> Transaction
+          Banking, Cash Management and much more.
+        </p>
+        <p><strong class="mr-2">Bank Smart:</strong> Cardless transactions.</p>
+      </div>
+    </section>
+    <!-- //middle -->
+
+    <!-- copyright -->
+    <section class="copy-right py-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-7">
+            <p class="">
+              © 2020 Faster Pay. All rights reserved | Design by
+              <a href="#"> Guruprasad Wakhure.</a>
+            </p>
+          </div>
+          <div class="col-lg-5 mt-lg-0 mt-3">
+            <ul class="list-w3 d-sm-flex">
+              <li>
+                <a href="#">
+                  Privicy Policy
+                </a>
+              </li>
+              <li class="mx-sm-4 mx-3">
+                <a href="#">
+                  Terms & Conditions
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  Disclaimer.
+                </a>
+              </li>
+              <li>
+                <a href="#"> </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- //copyright -->
+
+    <!-- move top -->
+    <div class="move-top text-right">
+      <a href="#home" class="move-top">
+        <span class="fa fa-angle-up  mb-3" aria-hidden="true"></span>
+      </a>
+    </div>
+    <!-- move top -->
   </div>
 </template>
-
-<script>
-// @ is an alias to /src
-// import HelloWorld from "@/components/HelloWorld.vue";
-
-export default {
-  // name: "Home",
-  // components: {
-  //   HelloWorld,
-  // },
-};
-addEventListener(
-  "load",
-  function() {
-    setTimeout(hideURLbar, 0);
-  },
-  false
-);
-
-function hideURLbar() {
-  window.scrollTo(0, 1);
-}
-</script>
