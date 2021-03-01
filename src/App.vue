@@ -19,16 +19,17 @@
           <ul class="menu ml-auto mt-1">
             <li class=""><router-link to="/">Home</router-link></li>
             <li class="active"><router-link to="/About">About</router-link></li>
-            <li class=""><a href="services.html">Services</a></li>
-            <li class=""><a href="blog.html">Blog</a></li>
-            <li class=""><a href="contact.html">Contact</a></li>
-            <li class="last-grid"><a href="#">Call Now</a></li>
+            <li class="active"><router-link to="/Services">Services</router-link></li>
+            <li class="active"><router-link to="/Blog">Blog</router-link></li>
+            <li class="active"><router-link to="/Contact">Contact</router-link></li>           
+            <li class="last-grid"><router-link to="/Contact">Call Now</router-link></li>
           </ul>
         </nav>
         <!-- //nav -->
       </div>
     </header>
     <!-- //header -->
+
     <!-- inner-banner -->
     <section class="inner-banner" id="home">
       <div class="inner-layer">
@@ -36,6 +37,7 @@
       </div>
     </section>
     <!-- //inner-banner -->
+    
     <router-view />
 
     <!-- footer -->
