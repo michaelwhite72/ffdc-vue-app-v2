@@ -265,5 +265,45 @@
       </div>
     </div>
     <!-- //subscribe -->
+    <!-- footer-top -->
+    <section class="footer-top pt-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-sm-6 mb-4">
+            <h3 class="my-sm-3 mb-2">
+              <span class="fa mr-2 fa-mobile"></span> Mobile Apps
+            </h3>
+            <p class="mb-sm-4">
+              Vestibulum ante ipsum primis in faucibus orci luctus et ultrices.
+            </p>
+          </div>
+          <div class="col-lg-3 col-sm-6 mb-4">
+            <h3 class="my-sm-3 mb-2">
+              <span class="fa mr-2 fa-shield"></span> Security Tips
+            </h3>
+            <p class="mb-sm-4">
+              Vestibulum ante ipsum primis in faucibus orci luctus et ultrices.
+            </p>
+          </div>
+          <div class="col-lg-3 col-sm-6 mb-4">
+            <h3 class="my-sm-3 mb-2">
+              <span class="fa mr-2 fa-globe"></span> Various Branches
+            </h3>
+            <p class="mb-sm-4">
+              Vestibulum ante ipsum primis in faucibus orci luctus et ultrices.
+            </p>
+          </div>
+          <div class="col-lg-3 col-sm-6 mb-4">
+            <h3 class="my-sm-3 mb-2">
+              <span class="fa mr-2 fa-phone"></span> 24/7 Support
+            </h3>
+            <p class="mb-4">
+              Vestibulum ante ipsum primis in faucibus orci luctus et ultrices.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- //footer-top -->
   </div>
 </template>

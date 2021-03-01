@@ -295,6 +295,4 @@
     </div>
   </div>
   <!-- //subscribe -->
-
- 
 </template>
