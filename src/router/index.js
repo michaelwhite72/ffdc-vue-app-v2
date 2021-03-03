@@ -2,6 +2,10 @@ import Vue from 'vue';
 import VueRouter from 'vue-router';
 import Home from '../views/Home.vue';
 import PendingPaymentRequest from '../views/PendingPaymentRequest.vue';
+import Services from '../views/Services.vue';
+import Blog from '../views/Blog.vue';
+import Contact from '../views/Contact.vue';
+import PaymentRequest from '../views/PaymentRequest.vue';
 
 Vue.use(VueRouter);
 
@@ -28,6 +32,26 @@ const routes = [
     path: '/PendingPaymentRequest',
     name: 'Pending_Payment_Request',
     component: PendingPaymentRequest
+  },
+  {
+    path: '/Services',
+    name: 'Services',
+    component: Services
+  },
+  {
+    path: '/Blog',
+    name: 'Blog',
+    component: Blog
+  },
+  {
+    path: '/Contact',
+    name: 'Contact',
+    component: Contact
+  },
+  {
+    path: '/PaymentRequest',
+    name: 'Payment_Request',
+    component: PaymentRequest
   },
 ];
 

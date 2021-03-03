@@ -1,6 +1,6 @@
 <template>
   <div class="Pending_Payent_Request">
-    <h1>This is a test for pending payment request</h1>
+
     <!-- breadcrumb -->
     <div class="breadcrumb-w3pvt">
       <div class="container">
