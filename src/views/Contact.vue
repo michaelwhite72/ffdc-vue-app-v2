@@ -46,7 +46,7 @@
 						</div>
 						<div class="form-group">
 						  <label>Email</label>
-						  <input type="email" class="form-control" id="name" placeholder="Enter Email" name="email">
+						  <input type="email" class="form-control" id="email" placeholder="Enter Email" name="email">
 						</div>
 						<div class="form-group">
 						  <label>How can we help?</label>
@@ -57,7 +57,7 @@
 			</div>
 			<div class="col-lg-4 contact-map mt-lg-0 mt-sm-5 mt-4">
 				<h4 class="mb-4 w3f_title">Contact Map</h4>
-				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3023.9503398796587!2d-73.9940307!3d40.719109700000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a27e2f24131%3A0x64ffc98d24069f02!2sCANADA!5e0!3m2!1sen!2sin!4v1441710758555" allowfullscreen=""></iframe>
+				<iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d3153.5552048126606!2d-122.45442878440707!3d37.77702641980233!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1s2130%20fulton%20street%2C%20san%20diego%2C%20ca%2094117!5e0!3m2!1sen!2sus!4v1617740901486!5m2!1sen!2sus" allowfullscreen=""></iframe>
 			</div>
 		</div>
 	</div>
