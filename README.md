@@ -19,7 +19,7 @@ npm install
 > You can also add vue/cli globally to develop in vue
 > ```npm install -g @vue/cli```
 
-### Configure
+<!-- ### Configure
 
 Set ```.env``` file
 
@@ -42,8 +42,8 @@ WEBSITE_HOSTNAME=www.site.web
 LOGIN_URL=http://localhost:8000/login
 ```
 
-## Compile project
-
+## Compile project -->
+<!-- 
 Front-end:
 ```
 npm run build
@@ -52,17 +52,16 @@ npm run build
 Back-end:
 ```
 npm run build:server
-```
+``` -->
 
 
 ## Test and run
 
-Front-end:
-```
+
 npm run serve
 ```
 
-Back-end:
+<!-- Back-end:
 ```
 npm run dev
 ```
@@ -72,5 +71,5 @@ npm run dev
 Lint and fix files
 ```
 npm run lint
-```
+``` -->
 
