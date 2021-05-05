@@ -61,15 +61,5 @@ npm run build:server
 npm run serve
 ```
 
-<!-- Back-end:
-```
-npm run dev
-```
 
-## Misc
-
-Lint and fix files
-```
-npm run lint
-``` -->
 
